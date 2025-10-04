@@ -1,0 +1,5 @@
+tweepy>=4.16.0
+groq
+python-dotenv
+requests
+
