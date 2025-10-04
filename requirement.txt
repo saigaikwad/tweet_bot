@@ -1,4 +1,0 @@
-tweepy==4.29.0
-python-dotenv==1.0.1
-groq==0.2.0
-flask==2.3.4
