@@ -55,7 +55,7 @@ MODEL_ID = "llama-3.3-70b-versatile"
 
 def generate_tweet():
     topic = random.choice(TOPICS)
-    prompt = f"Write a short, engaging tweet (under 280 characters) about {topic}. Make it conversational and human-like."
+    prompt = f"Write a short, engaging Fact (under 280 characters) about {topic}. Make it conversational and human-like."
 
     try:
         response = groq_client.chat.completions.create(
